@@ -18,6 +18,7 @@ dag = DAG('example_python_operator_airflow',
             max_active_runs=3,
             catchup=True,
             schedule_interval=None,
+            start_date=days_ago(2),
             default_args=default_args)
 
 with dag:
