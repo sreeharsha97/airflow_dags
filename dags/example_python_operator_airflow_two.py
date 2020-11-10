@@ -34,7 +34,7 @@ args = {
 }
 
 dag = DAG(
-    dag_id='example_python_operator_airflow_2',
+    dag_id='example_python_operator_airflow_two',
     default_args=args,
     schedule_interval=None,
     tags=['example']
